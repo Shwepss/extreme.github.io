@@ -1,0 +1,318 @@
+body {
+	margin: 0px;
+	background-image: url(../images/bgbg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #565656;
+	}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	margin: 0px;
+	}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	}
+h3	{
+	font-family: verdana;
+	margin: 0px;
+
+}
+	
+h4	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+
+h5	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	line-height: 20px;
+}
+a{
+	color: #0000FF;
+}
+a:hover {
+	color: #FF0000;
+}
+img {
+	margin: 0px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------
+
+	FONT COLORS
+
+------------------------------------------------------------ */
+.white {
+	color: #FFFFFF;
+}
+
+.blue {
+	color: #0052AC;
+}
+.green {
+	color: #517700;
+}
+.orange {
+	color: #FF6600;
+}
+.red {
+	color: #FF0000;
+}
+.yellow {
+	color: #FFFF99;
+}
+.grey {
+	color: #666666;
+}
+
+
+
+/* ------------------------------------------------------------
+
+	BODY COMPONENTS
+
+------------------------------------------------------------ */
+
+#header {
+	height: 65px;
+	width: 1100px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#head {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 107px;
+	background-image: url(../images/ground_01.gif);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 32px;
+	font-weight: bolder;
+}
+
+
+
+#footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	margin-bottom: 0px;
+	width: 940px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #666666;
+	padding-top: 20px;
+}
+
+
+#footer a{
+	color: #0000FF;
+}
+
+#footer a:hover{
+	color: #FF0000;
+}
+
+
+
+#containermain {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/ground_03.gif);
+	padding-top: 10px;
+	padding-right: 80px;
+	padding-bottom: 0px;
+	padding-left: 80px;
+}
+.margin {
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+
+.marginbody {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 80px;
+	padding-bottom: 0px;
+	padding-left: 80px;
+}
+
+
+.width100 {
+	width: 100%;
+}
+
+
+.width90 {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.width85 {
+	width: 85%;
+}
+
+.width75 {
+	width: 73%;
+}
+
+.width70 {
+	width: 69.9%;
+}
+
+.width65 {
+	width: 66.3%;
+}
+
+.width60 {
+	width: 59.3%;
+}
+
+
+.width50 {
+	width: 49.9%;
+}
+
+.width40 {
+	width: 40%;
+}
+.width33 {
+	width: 33.3%;
+}
+.width30 {
+	width: 29.9%;
+}
+
+.width25 {
+	width: 24.9%;
+}
+
+
+.width20 {
+	width: 20%;
+}
+
+
+.width15 {
+	width: 15%;
+}
+.width10 {
+	width: 70px;
+	height: 50px;
+}
+
+
+.breakme {
+	clear: both;
+	display: block;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.breakmezero {
+	clear: both;
+	display: block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+div {
+	margin: 0px;
+}
+
+
+#numberCountdown {
+	display: inline;
+	margin-right: 5px;
+	font-size: 23px;
+	color: #FF0000;
+}
+.box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 920px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #CCCCCC;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#menu {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 130px;
+	margin-top: 10px;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#menu li{
+}
+#menu li a{
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	width: 120px;
+	height: 20px;
+	padding-top: 10px;
+	font-size: 13px;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+	color: #0066CC;
+	font-weight: bold;
+	padding-left: 5px;
+}
+#menu li a:hover{
+	color: #FFFFFF;
+	background-color: #990000;
+}
+
