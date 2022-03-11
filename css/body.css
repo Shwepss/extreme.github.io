@@ -306,13 +306,13 @@ div {
 	text-decoration: none;
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
-	border-bottom-color: #666666;
-	color: #c0ff00;
+	border-bottom-color: #00fff7;
+	color: #00fff7;
 	font-weight: bold;
 	padding-left: 5px;
 }
 #menu li a:hover{
-	color: #FFFFFF;
-	background-color: #990000;
+	color: #000000;
+	background-color: #b1ff00;
 }
 
