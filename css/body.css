@@ -3,7 +3,7 @@ body {
 	background-image: url(../images/bgbg.gif);
 	background-repeat: repeat-x;
 	background-position: left top;
-	background-color: #565656;
+	background-color: #0;
 	}
 
 h1 {
@@ -148,7 +148,7 @@ img {
 	margin-left: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-image: url(../images/ground_03.gif);
+	background-image: url(../images/ground_03.png);
 	padding-top: 10px;
 	padding-right: 80px;
 	padding-bottom: 0px;
